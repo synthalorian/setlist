@@ -1,0 +1,22 @@
+/* Blackshield — steel+blood. Default theme everywhere; other palettes stay opt-in. */
+:root {
+  --bg: #101014;
+  --surface: #16161c;
+  --text: #d8d3c8;
+  --accent: #c1121f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}

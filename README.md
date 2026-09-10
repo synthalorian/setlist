@@ -10,7 +10,22 @@ Setlists live in group chats, chord charts in PDFs, and transposition in the wor
 - Setlist builder: drag-order songs, notes per slot
 - One-tap key transposition across the whole set
 - Offline-first; export setlist as PDF for the team
-- Plain dark theme by default (synthwave stays opt-in)
+- Blackshield (steel+blood) theme by default; synthwave stays opt-in
+
+## CLI (v0 engine harness)
+The bare `setlist` binary doubles as a CLI harness for the core engine:
+
+```console
+$ setlist transpose examples/way-maker.chordpro 2
+{title: Way Maker}
+{key: F#}
+...
+[F#]Way maker, [C#]miracle worker
+[D#m]Promise keeper, [B]light in the darkness
+```
+
+With no arguments it launches the Tauri app. Run the engine tests with
+`cargo test` inside `src-tauri/`.
 
 ## Stack
 Tauri 2 + Svelte. Local SQLite. PDF export for sharing.
