@@ -41,4 +41,3 @@ Free core; premium tier for team sync + cloud library later.
 - [ ] Mobile shell (Android)
 
 ---
-Made by [synth](https://github.com/synthalorian)
