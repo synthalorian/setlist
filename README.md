@@ -1,3 +1,5 @@
+![setlist](.github/preview.png)
+
 # Setlist
 
 Praise team command center: build setlists, manage chord charts, transpose keys in one tap, share with the team before Sunday.
